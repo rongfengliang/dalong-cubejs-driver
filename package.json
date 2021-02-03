@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@cubejs-backend/query-orchestrator": "^0.26.2",
+    "@cubejs-backend/schema-compiler": "^0.26.0",
+    "moment-timezone": "^0.5.32",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongfengliang/dalong-cubejs-driver.git"
+  },
+  "name": "dalong-cubejs-driver",
+  "version": "1.0.1",
+  "public": true,
+  "main": "index.js",
+  "author": "rong <1141591465@qq.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "p": "yarn publish --access public"
+  }
+}
